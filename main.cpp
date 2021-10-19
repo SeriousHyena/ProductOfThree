@@ -7,8 +7,9 @@ int multiply(int num1, int num2, int num3);
 
 int main()
 {
-	int multiply(int num1, int num2, int num3);		//invoke the function here
-	cout << multiply(2, 10, 5) << endl;
+	int solution = multiply(3, 4, 6);		//invoke the function here
+	cout<<endl << multiply(3, 4, 6)<<endl;
+	cout << solution << endl;
 	return 0;
 
 }
